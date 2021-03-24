@@ -149,13 +149,13 @@ img{
 .hero .container{
     padding-top: 200px;
     padding-bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 .hero-title{
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
-    max-width: 714px;
+    max-width: 696px;
 
     font-weight: 900;
     font-size: 44px;
@@ -199,12 +199,11 @@ img{
     text-transform: uppercase;
     color: var(--complementary-color);
 }
-.list-grid{
-    display: flex;
-    justify-content: space-between;
-}
-.item-grid{
+.about-item{
     flex-basis: calc((100% - 120px) / 4);
+}
+.services-section{
+    padding-top: 0;
 }
 .section-title{
     margin-bottom: 50px;
@@ -228,8 +227,9 @@ img{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.team-image{
-    margin-bottom: 30px;
+.team-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team{
     background-color: var(--bg-filter-color);
@@ -246,7 +246,7 @@ img{
     color: var(--complementary-color);
 }
 .team-text{
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 /* footer */
 .adress-footer{
@@ -306,10 +306,6 @@ img{
 }
 .filter-list{
     margin-bottom: 50px;
-}
-.active-filter{
-    background-color: var(--accent-color);
-    color: var(--rare-color);
 }
 .project-title{
     margin-bottom: 0;
